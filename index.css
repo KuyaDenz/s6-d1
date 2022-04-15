@@ -1,0 +1,68 @@
+
+/*type selector -> select the name of the tag*/
+h1 {
+	color: yellow;
+	font-size: 100px;
+}
+
+
+p {
+	color: violet;
+}
+
+/*universal selector -> used to target all elements using the asterisk symbol*/
+
+* {
+	font-family: "courier new", monospace;
+}
+
+/*ID selector -> target the attribute id
+Syntax:  to access id use "#";
+#id-name
+*/
+
+#motto {
+	letter-spacing: 5px;
+}
+
+h3 {
+	letter-spacing: 25px;
+}
+
+/*Class Selector -> target the attribute class
+we used if we want to target similar styling
+Syntax: to acccess class use "."
+.class-name
+*/
+
+.offering-item {
+	text-transform: uppercase;
+}
+
+/*attribute selector -> target the specific attribute of a tag 
+
+The attribute selector only works based on the exact attribute syntax provided
+
+Syntax
+tagmen [name attribute]
+
+*/
+
+input[required] {
+	border-width: 2px;
+	border-style: solid;
+	border-color: navy;
+}
+	
+
+
+/*
+Selector Specificity
+ID (Highest Priority)
+Class
+Attribute
+Type
+Universal (lowest priority)
+
+ */
+

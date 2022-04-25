@@ -13,16 +13,28 @@
 		<style>
 			h1 { 
 				color: blue !important;
-				font-size: 100px;
+		 	 	
 			}
 
 		</style>
 	</head>
 	<body>
 
+
+		<nav id="top">
+			<a href="#landing">PCF</a>
+			<div>
+				<a href="#landing">Landing</a>
+				<a href="#register">Register</a>
+
+			</div>
+
+
+		</nav>
 		
 		<!-- Inline Styling (highest priority) -->
-		<h1 style="color: red; font-size: 100px;">Hello Mhake05</h1>
+		<h1 style="color: red; font-size: 100px;">Hello PCF Family!</h1>
+
 
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -33,37 +45,56 @@
 
 		<hr>
 
-		<h2 align="center">Welcome to PCF!</h2>
-		<h3 align="center" id="motto">A friendly Church</h3>
+		<section id="landing">
+			<h2 align="center">Welcome to PCF!</h2>
+			<h3 align="center" id="motto">A friendly Church</h3>
+
+			<img src="https://place-puppy.com/450x450">
 
 
-		<ol>
-			<li class="offering-item">Day Classes</li>
-			<li class="offering-item">Night Classes</li>
-			<li class="offering-item">Intro to Coding Elements</li>
+			<ol id="bootcamp-learning-list">
+				<li class="offering-item">Day Classes</li>
+				<li class="offering-item">Night Classes</li>
+				<li class="offering-item">Intro to Coding Elements</li>
 
-		</ol>
+			</ol>
+
+			<a href="#top">Back to TOP</a>
+
+		</section>
 
 		<hr>
 
-		<h2 align="center">Register</h2>
 
-		<form align="center">
-			
-			<label for="firstName">First Name</label>
-			<input type="text" id="firstName" required autocomplete>
+		<section id="register">
+			<h2 align="center">Register</h2>
 
-	
-			<label for="lastName">Last Name</label>
-			<input type="text" id="lastName" required autocomplete>
-
+			<form align="center">
+				
+				<br>
+				<label for="firstName">First Name</label>
+				<br>
+				<input type="text" id="firstName" required autocomplete>
+				<br>
 		
-			<label for="email">Email</label>
-			<input type="text" id="email" required autocomplete>
+				<label for="lastName">Last Name</label>
+				<br>
+				<input type="text" id="lastName" required autocomplete>
+				<br>
+			
+				<label for="email">Email</label>
+				<br>
+				<input type="text" id="email" required autocomplete>
+				<br>
 
-			<button type="submit">Apply Now</button>
+				<button type="submit">Apply Now</button>
+				<br>
 
-		</form>
+			</form>
+
+			<a href="#top">Back to Top</a>
+
+		</section>
 
 
 
